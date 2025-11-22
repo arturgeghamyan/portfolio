@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import ModalOverlay from './components/ModalOverlay.vue'
 
 const showCv = ref(false)
+const cvUrl = new URL('CV-2025.pdf', import.meta.env.BASE_URL).href
 
 const experience = [
   {
@@ -206,7 +207,7 @@ const contacts = {
               View CV
             </button>
             <a
-              href="/CV-2025.pdf"
+              :href="cvUrl"
               target="_blank"
               rel="noopener"
               class="inline-flex items-center justify-center rounded-xl border border-slate-700/80 px-4 py-2 text-sm text-slate-300 hover:border-brand-400"
@@ -432,21 +433,21 @@ const contacts = {
         </p>
         <div class="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-inner">
           <iframe
-            src="/CV-2025.pdf"
+            :src="cvUrl"
             class="h-[70vh] w-full"
             title="CV PDF preview"
           />
         </div>
         <div class="flex flex-wrap items-center gap-3 text-sm">
           <a
-            href="/CV-2025.pdf"
+            :href="cvUrl"
             download
             class="inline-flex items-center gap-2 rounded-full bg-brand-500 px-4 py-2 font-medium text-slate-50 shadow-lg shadow-brand-500/30 hover:bg-brand-600"
           >
             Download PDF
           </a>
           <a
-            href="/CV-2025.pdf"
+            :href="cvUrl"
             target="_blank"
             rel="noopener"
             class="inline-flex items-center gap-2 rounded-full border border-slate-700 px-4 py-2 font-medium text-slate-200 hover:border-brand-400 hover:text-brand-200"
