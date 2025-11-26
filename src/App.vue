@@ -219,10 +219,6 @@ const contacts = {
 
           <div class="flex flex-wrap gap-2 text-xs">
             <div class="chip">
-              <span class="chip__label">Current</span>
-              <span class="chip__text">Frontend Developer @ Esterox LLC</span>
-            </div>
-            <div class="chip">
               <span class="chip__label">Location</span>
               <span class="chip__text">Yerevan, Armenia · Remote</span>
             </div>
