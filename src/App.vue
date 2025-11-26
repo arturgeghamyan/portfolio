@@ -4,7 +4,7 @@ import ModalOverlay from './components/ModalOverlay.vue'
 
 const showCv = ref(false)
 const appBase = import.meta.env.BASE_URL || '/'
-const cvUrl = new URL('CV-2025.pdf', new URL(appBase, window.location.origin)).href
+const cvUrl = new URL('Artur-CV.pdf', new URL(appBase, window.location.origin)).href
 
 const experience = [
   {
