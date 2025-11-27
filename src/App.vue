@@ -10,7 +10,7 @@ const experience = [
   {
     company: 'Esterox LLC',
     title: 'Frontend Developer',
-    period: 'Jun 2025 – Present',
+    period: 'Jun 2025 – Nov 2025',
     points: [
       'Developed and maintained high-impact product features across two platforms, including funnel builder, community spaces, messaging, event flows, and analytics dashboards.',
       'Built scalable UI architectures using microfrontends and reusable component systems.',
