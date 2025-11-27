@@ -131,7 +131,7 @@ const contacts = {
   role: 'Full Stack Web Developer',
   phone: '+374-44-147-477',
   email: 'artur.geghamyan@gmail.com',
-  linkedin: 'https://linkedin.com', // you can replace with full URL
+  linkedin: 'https://linkedin.com/in/arturgeghamyan',
 };
 </script>
 
